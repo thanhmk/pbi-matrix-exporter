@@ -1,8 +1,8 @@
 # 📊 PBI Matrix Exporter
 
-Một công cụ mã nguồn mở được xây dựng bằng Python và Streamlit, giúp giải quyết "nỗi đau" khi xuất dữ liệu từ các bảng Matrix phức tạp trong Power BI Desktop. 
+Một công cụ giúp giải quyết "nỗi đau" khi xuất dữ liệu từ các bảng Matrix phức tạp trong Power BI Desktop. 
 
-Thay vì phải xuất dữ liệu thô (flat data) và dùng Pivot Table trong Excel để dựng lại một cách thủ công, công cụ này cho phép bạn xuất trực tiếp dữ liệu từ Power BI ra file Excel mà vẫn **giữ nguyên hoàn toàn định dạng phân cấp (hierarchy)** của hàng và cột.
+Thay vì phải xuất dữ liệu thô (flat data) và dùng Pivot Table trong Excel để dựng lại một cách thủ công, công cụ này cho phép bạn xuất trực tiếp dữ liệu từ Power BI ra file Excel mà vẫn **giữ nguyên hoàn toàn định dạng phân cấp (hierarchy)** của hàng và cột, nhìn giống như bảng trên visualize.
 
 ## ✨ Tính năng nổi bật
 * **Hỗ trợ phân cấp linh hoạt:** Xử lý tốt phân cấp nhiều tầng ở cả Hàng (Rows) và Cột (Columns - ví dụ: phân cấp theo Thời gian).
